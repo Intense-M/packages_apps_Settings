@@ -321,4 +321,7 @@
     <string name="status_bar_custom_header_default_title">Use Poly HD images</string>
     <string name="status_bar_custom_header_default_summary">Enable for Polygraphic HD images. Disable for original images.</string>
 
+    <!-- Device Hostname -->
+    <string name="device_hostname">Device hostname</string>
+
 </resources>
