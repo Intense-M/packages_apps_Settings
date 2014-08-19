@@ -122,4 +122,10 @@
         <attr name="android:entries" />
         <attr name="android:entryValues" />
     </declare-styleable>
+
+    <declare-styleable name="SeekBarPreference">
+        <attr name="unitsLeft" format="string" />
+        <attr name="unitsRight" format="string" />
+    </declare-styleable>
+
 </resources>
