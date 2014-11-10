@@ -58,6 +58,8 @@ import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import com.android.settings.R;
+
 public class DeviceInfoSettings extends SettingsPreferenceFragment implements Indexable {
 
     private static final String LOG_TAG = "DeviceInfoSettings";
@@ -86,6 +88,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_UBER_AND = "uber_android";
     private static final String KEY_UBER_KERNEL = "uber_kernel";
     private static final String KEY_UBER_FLAGS = "uber_flags";
+    private static final String KEY_INTENSE_SHARE = "share";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
@@ -287,6 +290,13 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         } else if (prefKey.equals(KEY_KERNEL_VERSION)) {
             setStringSummary(KEY_KERNEL_VERSION, getKernelVersion());
             return true;
+        } else if (preference.getKey().equals(KEY_INTENSE_SHARE)) {
+        Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_SEND);
+        intent.setType("text/plain");
+        intent.putExtra(Intent.EXTRA_TEXT, String.format(
+                getActivity().getString(R.string.share_message), Build.MODEL));
+        startActivity(Intent.createChooser(intent, getActivity().getString(R.string.share_chooser_title)));
         }
         return super.onPreferenceTreeClick(preferenceScreen, preference);
     }

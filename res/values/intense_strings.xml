@@ -682,4 +682,10 @@
     <string name="dev_twitter_title">Twitter</string>
     <string name="dev_twitter_summary">Follow me</string>
 
+    <!-- Share Intense-M -->
+    <string name="share_intense_title">Share Intense-M</string>
+    <string name="share_intense_summary">Let others know about Intense-M</string>
+    <string name="share_message">Check out what #Intense-M is all about</string>
+    <string name="share_chooser_title">Share Intense-M</string>
+
 </resources>
