@@ -511,4 +511,8 @@
     <!-- Seconds clock -->
     <string name="status_bar_show_clock_second_title">Clock seconds</string>
 
+    <!-- Battery saver color -->
+    <string name="battery_saver_title">Warning color</string>
+    <string name="battery_saver_style_reset_message">Reset battery saver warning color?</string>
+
 </resources>
