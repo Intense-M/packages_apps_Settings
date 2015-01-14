@@ -645,4 +645,14 @@
     <string name="media_scanner_on_boot_ask">Ask to scan (notification)</string>
     <string name="media_scanner_on_boot_disabled">Do not scan media</string>
 
+    <!-- UBER GCC version info -->
+    <string name="uber_android">GCC Android</string>
+    <string name="uber_android_default">Unknown</string>
+    <string name="uber_kernel">GCC Kernel</string>
+    <string name="uber_kernel_default">Unknown</string>
+
+    <!-- UBER GCC build flags info -->
+    <string name="uber_flags">Build Flags</string>
+    <string name="uber_flags_default">None</string>
+
 </resources>
