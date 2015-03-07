@@ -319,6 +319,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         final int summaryResId = currentDensity == DisplayMetrics.DENSITY_DEVICE
                 ? R.string.lcd_density_default_value_format : R.string.lcd_density_value_format;
         mLcdDensityPreference.setSummary(getString(summaryResId, currentDensity));
+    }
 
     private void updateDisplayRotationPreferenceDescription() {
         if (mDisplayRotationPreference == null) {
