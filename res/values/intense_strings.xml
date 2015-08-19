@@ -554,4 +554,8 @@
     <string name="notification_light_voicemail_title">Voicemail</string>
     <string name="notification_light_screen_on">Lights with screen on</string>
 
+    <!-- Media ducking -->
+    <string name="interruptions_ignore_while_media_title">Prevent audio ducking</string>
+    <string name="interruptions_ignore_while_media_summary">Do not reduce media playback volume when a notification arrives</string>
+
 </resources>
