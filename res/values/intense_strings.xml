@@ -661,4 +661,10 @@
     <string name="android_version_title">Marshmallow</string>
     <string name="android_version_default">Release 13</string>
 
+    <!-- Kernel Auditor -->
+    <string name="kernel_settings_title">Kernel</string>
+
+    <!-- Viper4android -->
+    <string name="equalizer_settings_title">Equalizer</string>
+
 </resources>
