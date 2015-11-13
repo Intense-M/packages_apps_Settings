@@ -2480,6 +2480,14 @@
                 android:resource="@id/sim_settings" />
         </activity>
 
+        <!-- Intense Extra info -->
+        <activity android:name="com.android.settings.intense.extrainfo.MainActivity"
+                  android:theme="@android:style/Theme.Holo.Dialog.NoActionBar.MinWidth">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
         <activity android:name=".sim.SimPreferenceDialog"
             android:theme="@android:style/Theme.Material.Light.Dialog.NoActionBar"
             android:excludeFromRecents="true">
