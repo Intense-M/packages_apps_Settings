@@ -25,4 +25,9 @@
     <string name="intense_version_title">Intense Version</string>
     <string name="intense_version_default">Unknown</string>
 
+    <!-- Changelog -->
+    <string name="changelog_intense_title">Intense Changelog</string>
+    <string name="changelog_intense_error">Unable to load changelog</string>
+
+
 </resources>
