@@ -27,6 +27,11 @@
             android:fragment="com.android.settings.intense.StatusBarClockStyle"
             android:key="clock_style_pref"
             android:title="@string/status_bar_clock" />
+            
+         <Preference
+            android:key="battery"
+            android:fragment="com.android.settings.intense.Battery"
+            android:title="@string/battery_category" />            
 
          <PreferenceScreen
             android:key="carrierlabel"
