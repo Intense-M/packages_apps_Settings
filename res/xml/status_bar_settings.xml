@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright (C) 2013 SlimRoms Project
+<!-- Copyright (C) 2016 Intense-M Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -79,5 +79,10 @@
             android:key="weather"
             android:fragment="com.android.settings.intense.Weather"
             android:title="@string/weather_category" />
+
+         <Preference
+            android:key="statusbar_notifications"
+            android:fragment="com.android.settings.intense.StatusbarNotifications"
+            android:title="@string/statusbar_notifications_category" />
 
 </PreferenceScreen>

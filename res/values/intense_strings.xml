@@ -418,4 +418,9 @@
     <string name="headset_plugged_in_title">Headset Plugged In notification</string>
     <string name="headset_plugged_in_summary">Enable notification for when the headset is plugged in</string>
 
+    <!-- Force expanded notifications -->
+    <string name="statusbar_notifications_category">Notifications</string>
+    <string name="force_expanded_notifications_title">Force Expanded Notifications</string>
+    <string name="force_expanded_notifications_summary">Available only for apps that support expanded notifications</string>
+
 </resources>
