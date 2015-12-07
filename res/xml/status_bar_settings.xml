@@ -75,4 +75,9 @@
             android:title="@string/toast_icon_title"
             android:defaultValue="true" />
 
+         <Preference
+            android:key="weather"
+            android:fragment="com.android.settings.intense.Weather"
+            android:title="@string/weather_category" />
+
 </PreferenceScreen>
