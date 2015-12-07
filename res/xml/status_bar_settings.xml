@@ -58,5 +58,11 @@
             android:key="intense_logo"
             android:fragment="com.android.settings.intense.IntenseLogo"
             android:title="@string/status_bar_intense_logo_title" />
+ 
+	 <Preference
+            android:key="traffic"
+            android:fragment="com.android.settings.intense.Traffic"
+            android:layout="@layout/preference_traffic"
+            android:title="@string/traffic_category" />
 
 </PreferenceScreen>
