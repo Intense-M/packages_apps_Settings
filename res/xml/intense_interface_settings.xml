@@ -30,5 +30,9 @@
         android:fragment="com.android.settings.slim.BatteryBar"
         android:title="@string/battery_bar" />
 
+   <Preference
+        android:key="recents"
+        android:fragment="com.android.settings.intense.Recents"
+        android:title="@string/recents_category" />
 
 </PreferenceScreen>
