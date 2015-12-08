@@ -54,4 +54,10 @@
             android:dependency="status_bar_custom_header"
             android:defaultValue="false"/>
 
+          <Preference
+            android:key="intense_logo"
+            android:fragment="com.android.settings.intense.IntenseLogo"
+            android:layout="@layout/preference_intenselogo"
+            android:title="@string/status_bar_intense_logo_title" />
+
 </PreferenceScreen>
