@@ -103,6 +103,13 @@
         android:key="notification"
         android:title="@string/notification_section_header" >
 
+        <!-- Headset icon -->
+        <com.android.settings.intense.SystemSettingSwitchPreference
+                android:key="headset_plugged_in"
+                android:title="@string/headset_plugged_in_title"
+                android:summary="@string/headset_plugged_in_summary"
+                android:defaultValue="false" />
+
         <!-- Pulse notification light -->
         <SwitchPreference
                 android:key="notification_pulse"

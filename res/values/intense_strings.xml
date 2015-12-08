@@ -414,4 +414,8 @@
     <string name="weather_settings_title">LockClock settings</string>
     <string name="weather_settings_summary">Configure location for weather widget and other settings</string>
 
+    <!-- Headset Plugged In notification -->
+    <string name="headset_plugged_in_title">Headset Plugged In notification</string>
+    <string name="headset_plugged_in_summary">Enable notification for when the headset is plugged in</string>
+
 </resources>
