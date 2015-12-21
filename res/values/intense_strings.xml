@@ -573,7 +573,7 @@
     <string name="hardware_keys_action_launch_camera">Launch camera</string>
     <string name="hardware_keys_action_sleep">Turn screen off</string>
 
-    <!-- powermenu fragment -->
+    <!-- Powermenu fragment -->
     <string name="power_menu_title">Power menu</string>
     <string name="power_menu_power_title">Power off</string>
     <string name="power_menu_reboot_title">Reboot menu</string>
@@ -587,6 +587,7 @@
     <string name="power_menu_bug_report_title">Bug report</string>
     <string name="power_menu_sound_title">Sound panel</string>
     <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
+    <string name="powermenu_screenrecord">Screen Record</string>
 
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Reset stats</string>
