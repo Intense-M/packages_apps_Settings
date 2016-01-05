@@ -21,4 +21,8 @@
     <!-- BitSyko Layers -->
     <string name="bitsyko_layers">Layers</string>
 
+    <!-- About phone screen, Intense-M version -->
+    <string name="intense_version_title">Intense Version</string>
+    <string name="intense_version_default">Unknown</string>
+
 </resources>
