@@ -24,6 +24,8 @@
     <!-- About phone screen, Intense-M version -->
     <string name="intense_version_title">Intense Version</string>
     <string name="intense_version_default">Unknown</string>
+    <string name="build_date">Build date</string>
+    <string name="build_date_default">Unknown</string>
 
     <!-- Changelog -->
     <string name="changelog_intense_title">Intense Changelog</string>
