@@ -31,7 +31,7 @@
                 android:key="manual"
                 android:title="@string/manual">
             <intent android:action="android.settings.SHOW_MANUAL" />
-        </PreferenceScreen
+        </PreferenceScreen>
 
         <PreferenceScreen
                 android:key="regulatory_info"
