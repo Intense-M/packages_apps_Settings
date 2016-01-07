@@ -70,7 +70,9 @@
                 android:icon="@drawable/ic_settings_more"
                 />
 
-        <!-- BitSyko Layers App -->
+    </dashboard-category>
+
+    <!-- BitSyko Layers App -->
         <dashboard-tile
                 android:id="@+id/bitsyko_layers"
                 android:icon="@drawable/ic_bitsyko_layers"
@@ -80,8 +82,6 @@
                     android:targetPackage="com.lovejoy777.rroandlayersmanager"
                     android:targetClass="com.lovejoy777.rroandlayersmanager.menu" />
         </dashboard-tile>
-
-    </dashboard-category>
 
     <!-- DEVICE -->
     <dashboard-category
@@ -251,14 +251,6 @@
                 android:icon="@drawable/ic_settings_print"
                 />
 
-        <!-- Development -->
-        <dashboard-tile
-                android:id="@+id/development_settings"
-                android:title="@string/development_settings_title"
-                android:fragment="com.android.settings.DevelopmentSettings"
-                android:icon="@drawable/ic_settings_development"
-                />
-
         <!-- SuperSU -->
         <dashboard-tile
             android:id="@+id/supersu_settings"
@@ -269,6 +261,14 @@
                 android:targetPackage="eu.chainfire.supersu"
                 android:targetClass="eu.chainfire.supersu.MainActivity" />
         </dashboard-tile>
+
+        <!-- Development -->
+        <dashboard-tile
+                android:id="@+id/development_settings"
+                android:title="@string/development_settings_title"
+                android:fragment="com.android.settings.DevelopmentSettings"
+                android:icon="@drawable/ic_settings_development"
+                />
 
         <!-- About Device -->
         <dashboard-tile
