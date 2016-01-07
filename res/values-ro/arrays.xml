@@ -440,7 +440,6 @@
     <item msgid="45075631231212732">"Utilizează întotdeauna verificarea HDCP"</item>
   </string-array>
   <string-array name="window_animation_scale_entries">
-<<<<<<< HEAD
     <item msgid="8134156599370824081">"Animație dezactivată"</item>
     <item msgid="6624864048416710414">"Animație la scara 0,5x"</item>
     <item msgid="2219332261255416635">"Animație la scara 1x"</item>
