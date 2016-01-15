@@ -88,14 +88,6 @@
                 android:icon="@drawable/ic_settings_interface"
                 />
 
-    </dashboard-category>
-
-    <!-- DEVICE -->
-    <dashboard-category
-            android:id="@+id/device_section"
-            android:key="@string/category_key_device"
-            android:title="@string/header_category_device" >
-
         <!-- BitSyko Layers App -->
         <dashboard-tile
                 android:id="@+id/bitsyko_layers"
@@ -106,6 +98,14 @@
                     android:targetPackage="com.lovejoy777.rroandlayersmanager"
                     android:targetClass="com.lovejoy777.rroandlayersmanager.menu" />
         </dashboard-tile>
+
+    </dashboard-category>
+
+    <!-- DEVICE -->
+    <dashboard-category
+            android:id="@+id/device_section"
+            android:key="@string/category_key_device"
+            android:title="@string/header_category_device" >
 
         <!-- Home -->
         <dashboard-tile
@@ -123,14 +123,6 @@
                 android:icon="@drawable/ic_settings_display"
                 />
 
-        <!-- Buttons -->
-        <dashboard-tile
-            android:id="@+id/button_settings"
-            android:title="@string/button_settings_title"
-            android:fragment="com.android.settings.intense.ButtonSettings"
-            android:icon="@drawable/ic_settings_buttons"
-            />
-
         <!-- Notifications -->
         <dashboard-tile
                 android:id="@+id/notification_settings"
@@ -138,6 +130,14 @@
                 android:fragment="com.android.settings.notification.NotificationSettings"
                 android:icon="@drawable/ic_settings_notifications"
                 />
+
+        <!-- Buttons -->
+        <dashboard-tile
+            android:id="@+id/button_settings"
+            android:title="@string/button_settings_title"
+            android:fragment="com.android.settings.intense.ButtonSettings"
+            android:icon="@drawable/ic_settings_buttons"
+            />
 
         <!-- Application Settings -->
         <dashboard-tile
