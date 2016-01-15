@@ -79,4 +79,8 @@
     <string name="pixels">Pixels</string>
     <string name="inches">Inches</string>
 
+    <!-- Intense-M Tweaks -->
+    <string name="intense_settings_title">Intense Tweaks</string>
+    <string name="header_category_intense">Customizations</string>
+
 </resources>

@@ -2480,6 +2480,9 @@
                 android:resource="@id/sim_settings" />
         </activity>
 
+        <!-- Intense-M activities Start -->
+        <activity android:name=".intense.Settings" />
+
         <!-- Intense Extra info -->
         <activity android:name="com.android.settings.intense.extrainfo.MainActivity"
                   android:theme="@android:style/Theme.Holo.Dialog.NoActionBar.MinWidth">
