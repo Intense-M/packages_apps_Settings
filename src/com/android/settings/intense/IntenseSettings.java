@@ -13,7 +13,7 @@ public class IntenseSettings extends SettingsPreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.intense_tweaks);
+        addPreferencesFromResource(R.xml.intense_settings);
     }
 
     @Override
