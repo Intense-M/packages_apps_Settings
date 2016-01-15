@@ -120,13 +120,4 @@
     <string name="lcd_density_default_value_format">%d DPI (default)</string>
     <string name="restarting_ui">Restarting UI\u2026</string>
 
-    <!-- Setting checkbox title for root access -->
-    <string name="root_access">Root access</string>
-    <string name="root_access_warning_title">Allow root access?</string>
-    <string name="root_access_warning_message">Allowing apps to request root access is very dangerous and could compromise the security of your system!</string>
-    <string name="root_access_none">Disabled</string>
-    <string name="root_access_apps">Apps only</string>
-    <string name="root_access_adb">ADB only</string>
-    <string name="root_access_all">Apps and ADB</string>
-
 </resources>
