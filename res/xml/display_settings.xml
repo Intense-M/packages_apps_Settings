@@ -117,7 +117,7 @@
 
                     
                 <!-- Toast Icons -->
-                <com.android.settings.slim.SystemSettingSwitchPreference
+                <com.android.settings.intense.SystemSettingSwitchPreference
                     android:key="toast_icon"
                     android:title="@string/toast_icon_title"
                     android:defaultValue="true" />
