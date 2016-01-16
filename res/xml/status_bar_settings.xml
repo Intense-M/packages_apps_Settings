@@ -23,17 +23,10 @@
     <PreferenceCategory
         android:title="@string/status_bar_style_title">
 
-
         <PreferenceScreen
             android:fragment="com.android.settings.intense.StatusBarClockStyle"
             android:key="clock_style_pref"
             android:title="@string/status_bar_clock" />
-
-        <PreferenceScreen
-	    android:key="network_traffic_state"
-    	    android:fragment="com.android.settings.chroma.NetworkTraffic"
-	    android:summary="@string/network_traffic_summary"
-    	    android:title="@string/network_traffic_title" />
 
         <com.android.settings.intense.SystemSettingSwitchPreference
             android:key="double_tap_sleep_gesture"
@@ -48,4 +41,5 @@
             android:title="@string/status_bar_custom_header_title"
             android:summary="@string/status_bar_custom_header_summary"
             android:defaultValue="false"/>
+
 </PreferenceScreen>
