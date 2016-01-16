@@ -133,11 +133,11 @@
 
         <!-- Buttons -->
         <dashboard-tile
-            android:id="@+id/button_settings"
-            android:title="@string/button_settings_title"
-            android:fragment="com.android.settings.intense.ButtonSettings"
-            android:icon="@drawable/ic_settings_buttons"
-            />
+                android:id="@+id/button_settings"
+                android:title="@string/button_settings_title"
+                android:fragment="com.android.settings.intense.ButtonSettings"
+                android:icon="@drawable/ic_settings_buttons"
+                />
 
         <!-- Application Settings -->
         <dashboard-tile
