@@ -16,6 +16,9 @@
 -keep class com.android.settings.users.*
 -keep class com.android.settings.nfc.*
 -keep class com.android.settings.notification.*
+-keep class com.android.settings.intense.*
+-keep class com.intense.**
+-keep class com.intense.fragments.**
 
 # These would be stripped out since they are being created with reflection
 -keep class com.android.settings.dashboard.GenericSwitchToggle { *; }

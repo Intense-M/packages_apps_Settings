@@ -88,6 +88,14 @@
                 android:icon="@drawable/ic_settings_interface"
                 />
 
+        <!-- Interface Settings -->
+        <dashboard-tile
+                android:id="@+id/interface_settings"
+                android:icon="@drawable/ic_settings_interface"
+                android:fragment="com.android.settings.intense.InterfaceSettings"
+                android:title="@string/interface_settings_title"
+                />
+
         <!-- BitSyko Layers App -->
         <dashboard-tile
                 android:id="@+id/bitsyko_layers"
@@ -133,11 +141,11 @@
 
         <!-- Buttons -->
         <dashboard-tile
-            android:id="@+id/button_settings"
-            android:title="@string/button_settings_title"
-            android:fragment="com.android.settings.intense.ButtonSettings"
-            android:icon="@drawable/ic_settings_buttons"
-            />
+                android:id="@+id/button_settings"
+                android:title="@string/button_settings_title"
+                android:fragment="com.android.settings.intense.ButtonSettings"
+                android:icon="@drawable/ic_settings_buttons"
+                />
 
         <!-- Application Settings -->
         <dashboard-tile
