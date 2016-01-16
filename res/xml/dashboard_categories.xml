@@ -85,6 +85,7 @@
                 android:title="@string/intense_settings_title"
                 android:fragment="com.android.settings.intense.IntenseSettings"
                 android:icon="@drawable/ic_settings_interface"
+                />
 
         <!-- Interface Settings -->
         <dashboard-tile
@@ -121,14 +122,6 @@
                 android:icon="@drawable/ic_settings_home"
                 />
 
-        <!-- Buttons -->
-        <dashboard-tile
-                android:id="@+id/button_settings"
-                android:title="@string/button_pref_title"
-                android:fragment="com.android.settings.ButtonSettings"
-                android:icon="@drawable/ic_buttons_tile"
-                />
-
         <!-- Display -->
         <dashboard-tile
                 android:id="@+id/display_settings"
@@ -147,11 +140,11 @@
 
         <!-- Buttons -->
         <dashboard-tile
-            android:id="@+id/button_settings"
-            android:title="@string/button_settings_title"
-            android:fragment="com.android.settings.intense.ButtonSettings"
-            android:icon="@drawable/ic_settings_buttons"
-            />
+                android:id="@+id/button_settings"
+                android:title="@string/button_settings_title"
+                android:fragment="com.android.settings.intense.ButtonSettings"
+                android:icon="@drawable/ic_settings_buttons"
+                />
 
         <!-- Application Settings -->
         <dashboard-tile
