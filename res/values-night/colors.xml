@@ -3,6 +3,6 @@
     <color name="card_background">#ff000000</color>
     <color name="lock_pattern_view_regular_color">@*android:color/secondary_text_default_material_dark</color>
     <color name="switchbar_background_color">#ff242424</color>
-    <color name="theme_accent">#ffa1b0af</color>
+    <color name="theme_accent">#ffd4dfde</color>
 
 </resources>
