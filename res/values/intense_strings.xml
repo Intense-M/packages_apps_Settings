@@ -83,4 +83,41 @@
     <string name="intense_settings_title">Intense Tweaks</string>
     <string name="header_category_intense">Customizations</string>
 
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
+
+    <!-- Profiles -->
+    <string name="profile_reset_title">Reset</string>
+    <string name="profiles_add">Add</string>
+    <string name="profile_choose_app">Choose app</string>
+    <string name="profile_applist_title">Apps</string>
+    <string name="picker_activities">Activities</string>
+    <string name="select_custom_app_title">Select custom app</string>
+    <string name="select_custom_activity_title">Select custom activity</string>
+
+    <!-- Dashboard tiles-->
+    <string name="button_settings_title">Buttons</string>
+
+    <!-- Button settings -->
+    <string name="button_power_menu_settings_title">Power menu</string>
+    <string name="button_power_menu_settings_summary">Customize power menu</string>
+
+    <!-- Power menu settings -->
+    <string name="power_menu_show_advanced_reboot_title">Advanced reboot menu</string>
+    <string name="power_menu_show_advanced_reboot_summary">Enable to show advanced options in the reboot menu</string>
+
+    <!-- Display & Lights screen, setting options for LCD density -->
+    <string name="lcd_density">LCD density</string>
+    <string name="dialog_title_lcd_density">LCD density</string>
+    <string name="lcd_density_value_format">%d DPI</string>
+    <string name="lcd_density_default_value_format">%d DPI (default)</string>
+    <string name="restarting_ui">Restarting UI\u2026</string>
+
 </resources>
