@@ -262,12 +262,6 @@
     <string name="status_bar_custom_header_title">Time Contextual Header</string>
     <string name="status_bar_custom_header_summary">Enable notification panel header image</string>
 
-
-    <!-- SystemUI Tuner Parts -->
-    <string name="systemui_tuner_statusbar_title">Statusbar Items</string>
-    <string name="systemui_tuner_qs_title">Quick Settings</string>
-    <string name="systemuituner">System UI Tuner</string>
-
     <!-- Show/Hide Search Bar -->
     <string name="recents_category">Recents</string>
     <string name="recents_show_searchbar">Recents panel Search bar</string>
