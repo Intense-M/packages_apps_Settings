@@ -137,7 +137,7 @@ public class VolumeSteps extends SettingsPreferenceFragment implements
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsLogger.TESLACOIL;
+        return MetricsLogger.INTENSEM;
     }
 
     private SharedPreferences getDefaultStepsPrefs() {
