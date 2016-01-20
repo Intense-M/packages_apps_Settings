@@ -28,8 +28,6 @@
             android:key="clock_style_pref"
             android:title="@string/status_bar_clock" />
 
-    </PreferenceCategory>
-
          <PreferenceScreen
             android:key="carrierlabel"
             android:fragment="com.android.settings.intense.CarrierLabel"
@@ -44,6 +42,8 @@
             android:key="traffic"
             android:fragment="com.android.settings.intense.Traffic"
             android:title="@string/traffic_category" />
+
+    </PreferenceCategory>
 
          <com.android.settings.intense.SystemSettingSwitchPreference
             android:key="double_tap_sleep_gesture"
@@ -63,5 +63,11 @@
             android:summary="@string/status_bar_custom_header_default_summary"
             android:dependency="status_bar_custom_header"
             android:defaultValue="false"/>
+
+         <!-- Toast Icons -->
+         <com.android.settings.intense.SystemSettingSwitchPreference
+            android:key="toast_icon"
+            android:title="@string/toast_icon_title"
+            android:defaultValue="true" />
 
 </PreferenceScreen>
