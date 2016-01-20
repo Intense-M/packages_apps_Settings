@@ -62,7 +62,6 @@
 	 <Preference
             android:key="traffic"
             android:fragment="com.android.settings.intense.Traffic"
-            android:layout="@layout/preference_traffic"
             android:title="@string/traffic_category" />
 
 </PreferenceScreen>
