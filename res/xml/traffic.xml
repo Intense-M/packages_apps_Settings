@@ -52,7 +52,7 @@
         android:dependency="network_traffic_state"
         android:defaultValue="false" />
 
-    <com.com.android.settings.intense.widget.SeekBarPreferenceCham
+    <com.android.settings.intense.widget.SeekBarPreferenceCham
         android:key="network_traffic_autohide_threshold"
         android:title="@string/network_traffic_autohide_threshold"
         android:max="100"
