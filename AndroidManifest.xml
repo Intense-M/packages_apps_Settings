@@ -2501,6 +2501,9 @@
 
         <!-- Intense-M activities Start -->
         <activity android:name=".intense.Settings" />
+        <activity android:name="com.android.settings.intense.Traffic" />
+
+        <!-- Intense-M Activities End -->
 
         <!-- Intense Extra info -->
         <activity android:name="com.android.settings.intense.extrainfo.MainActivity"
