@@ -38,5 +38,25 @@
         android:defaultValue="3"
         android:dependency="show_clear_all_recents" />
 
+    <SwitchPreference
+        android:key="recents_use_omniswitch"
+        android:title="@string/recents_use_omniswitch_title"
+        android:summary="@string/recents_use_omniswitch_summary"
+        android:persistent="false" />
+
+    <Preference
+        android:key="omniswitch_start_settings"
+        android:title="@string/omniswitch_start_settings_title"
+        android:summary="@string/omniswitch_start_settings_summary"
+        android:persistent="false" />
+
+    <!-- Full Screen Recents -->
+    <com.android.settings.intense.SystemSettingSwitchPreference
+        android:key="recents_full_screen"
+        android:title="@string/recents_show_fullscreen"
+        android:summaryOn="@string/recents_fullscreen_summary_enabled"
+        android:summaryOff="@string/recents_fullscreen_summary_disabled"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
 
