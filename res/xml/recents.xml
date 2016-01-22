@@ -17,10 +17,6 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/recents_category" >
 
-    <PreferenceCategory
-        android:key="stock_recents"
-        android:title="@string/aosp_recents_title" >
-
     <com.android.settings.intense.SystemSettingSwitchPreference
         android:key="recents_show_search_bar"
         android:title="@string/recents_show_searchbar"
@@ -42,12 +38,6 @@
         android:defaultValue="3"
         android:dependency="show_clear_all_recents" />
 
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="omni_recents"
-        android:title="@string/omniswitch_recents_title" >
-
     <SwitchPreference
         android:key="recents_use_omniswitch"
         android:title="@string/recents_use_omniswitch_title"
@@ -56,7 +46,7 @@
 
     <Preference
         android:key="omniswitch_start_settings"
-        android:title="@string/omniswitch_category"
+        android:title="@string/omniswitch_start_settings_title"
         android:summary="@string/omniswitch_start_settings_summary"
         android:persistent="false" />
 
@@ -67,8 +57,6 @@
         android:summaryOn="@string/recents_fullscreen_summary_enabled"
         android:summaryOff="@string/recents_fullscreen_summary_disabled"
         android:defaultValue="false" />
-
-    </PreferenceCategory>
 
 </PreferenceScreen>
 
