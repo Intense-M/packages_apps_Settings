@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
- * Copyright 2014, The Android Open Source Project
+ * Copyright 2016, The Intense-M Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,18 +22,11 @@
     android:height="24dp"
     android:viewportWidth="24"
     android:viewportHeight="24">
+    android:tint="?android:attr/colorAccent">
 
-    <group
-            android:translateX="0.27280934"
-            android:translateY="1.0840165">
-        <path
-            android:fillColor="@*android:color/material_deep_teal_500"
-            android:pathData="M 11.652,12.667 L 23.303,6.333 11.652,0 0,6.333 Z" />
-        <path
-            android:fillColor="@*android:color/material_deep_teal_500"
-            android:pathData="M 2.166,9.555 L 0,10.732 11.652,17.063 23.303,10.732 21.137,9.555 11.652,14.709 Z" />
-        <path
-            android:fillColor="@*android:color/material_deep_teal_500"
-            android:pathData="M 2.166,13.952 L 0,15.127 l 11.652,6.334 11.651,-6.334 -2.166,-1.175-9.485,5.155 z" />
-    </group>
+    <path
+                android:fillColor="#000000
+        android:pathData="M18 4V3c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1v4c0 .55 .45 1 1 1h12c.55 0 1-.45
+                1-1V6h1v4H9v11c0 .55 .45 1 1 1h2c.55 0 1-.45 1-1v-9h8V4h-3z" />
+    <path android:pathData="M0 0h24v24H0z" />
 </vector> 
