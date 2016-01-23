@@ -28,12 +28,6 @@
         android:summary="@string/disable_immersive_message_summary"
         android:persistent="false" />
 
-    <com.android.settings.intense.SystemSettingSwitchPreference
-        android:key="status_bar_notif_count"
-        android:title="@string/status_bar_notif_count_title"
-        android:summary="@string/status_bar_notif_count_summary"
-        android:persistent="false" />
-
     <PreferenceCategory
         android:key="breathing_notifications_category"
         android:title="@string/breathing_notifications_category" />

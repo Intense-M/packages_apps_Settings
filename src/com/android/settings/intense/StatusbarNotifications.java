@@ -38,16 +38,13 @@ public class StatusbarNotifications extends SettingsPreferenceFragment implement
 
     private static final String FORCE_EXPANDED_NOTIFICATIONS = "force_expanded_notifications";
     private static final String DISABLE_IMMERSIVE_MESSAGE = "disable_immersive_message";
-    private static final String STATUS_BAR_NOTIF_COUNT = "status_bar_notif_count";
     private static final String MISSED_CALL_BREATH = "missed_call_breath";
     private static final String VOICEMAIL_BREATH = "voicemail_breath";
 
     private SwitchPreference mForceExpanded;
     private SwitchPreference mDisableIM;
-    private SwitchPreference mEnableNC;
     private SwitchPreference mMissedCallBreath;
     private SwitchPreference mVoicemailBreath;
-
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -63,9 +60,6 @@ public class StatusbarNotifications extends SettingsPreferenceFragment implement
 
 	mForceExpanded = (SwitchPreference) findPreference(FORCE_EXPANDED_NOTIFICATIONS);
         mForceExpanded.setChecked((Settings.System.getInt(resolver, Settings.System.FORCE_EXPANDED_NOTIFICATIONS, 0) == 1));
-
-	mEnableNC = (SwitchPreference) findPreference(STATUS_BAR_NOTIF_COUNT);
-        mEnableNC.setChecked((Settings.System.getInt(resolver, Settings.System.STATUS_BAR_NOTIF_COUNT, 0) == 1));
 
         mMissedCallBreath = (SwitchPreference) findPreference(MISSED_CALL_BREATH);
         mVoicemailBreath = (SwitchPreference) findPreference(VOICEMAIL_BREATH);
@@ -91,7 +85,7 @@ public class StatusbarNotifications extends SettingsPreferenceFragment implement
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsLogger.TESLACOIL;
+        return MetricsLogger.INTENSEM;
     }
 
     @Override
@@ -111,12 +105,6 @@ public class StatusbarNotifications extends SettingsPreferenceFragment implement
             boolean checked = ((SwitchPreference)preference).isChecked();
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.DISABLE_IMMERSIVE_MESSAGE, checked ? 1:0);
-            return true;
-        }
-        if  (preference == mEnableNC) {
-            boolean checked = ((SwitchPreference)preference).isChecked();
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.STATUS_BAR_NOTIF_COUNT, checked ? 1:0);
             return true;
         }
         return super.onPreferenceTreeClick(preferenceScreen, preference);
