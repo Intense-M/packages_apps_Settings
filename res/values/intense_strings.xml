@@ -508,4 +508,7 @@
     <string name="listview_anticipate_overshoot_interpolator">Anticipate and overshoot</string>
     <string name="listview_bounce_interpolator">Bounce</string>
 
+    <!-- Seconds clock -->
+    <string name="status_bar_show_clock_second_title">Clock seconds</string>
+
 </resources>
