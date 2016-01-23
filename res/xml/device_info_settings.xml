@@ -20,13 +20,6 @@
                           android:enabled="false"
                           android:layout="@layout/intense_logo_row" />
 
-        <!-- Intense-M firmware version -->
-        <Preference android:key="intense_version"
-                style="?android:preferenceInformationStyle"
-                android:title="@string/intense_version_title"
-                android:summary="@string/intense_version_default"/>
-                android:icon="@drawable/ic_intense_tweaks" />
-                
         <!-- Changelog -->
         <PreferenceScreen 
          	android:key="translator"
@@ -79,6 +72,12 @@
                 style="?android:preferenceInformationStyle"
                 android:title="@string/firmware_version"
                 android:summary="@string/device_info_default"/>
+
+        <!-- Intense-M firmware version -->
+        <Preference android:key="intense_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/intense_version_title"
+                android:summary="@string/intense_version_default"/>
 
         <!-- Security patch level -->
         <Preference android:key="security_patch"

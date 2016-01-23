@@ -2141,7 +2141,6 @@
         />
 
         <!-- Intense activities Start -->
-        <activity android:name=".intense.ButtonSettings" />
 
         <!-- Intense activities end -->
 

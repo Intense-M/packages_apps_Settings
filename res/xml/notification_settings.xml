@@ -127,6 +127,13 @@
                 android:summary="@string/interruptions_ignore_while_media_summary"
                 android:defaultValue="false" />
 
+        <!-- Volume buttons to skip tracks -->
+        <com.android.settings.intense.SystemSettingSwitchPreference
+            android:key="volbtn_music_controls"
+            android:title="@string/volbtn_music_controls_title"
+            android:summary="@string/volbtn_music_controls_summary"
+            android:defaultValue="true" />
+
         <!-- Pulse notification light -->
         <PreferenceScreen
                 android:key="notification_light"
