@@ -102,9 +102,6 @@
     <string name="select_custom_app_title">Select custom app</string>
     <string name="select_custom_activity_title">Select custom activity</string>
 
-    <!-- Dashboard tiles-->
-    <string name="button_settings_title">Buttons</string>
-
     <!-- Button settings -->
     <string name="button_power_menu_settings_title">Power menu</string>
     <string name="button_power_menu_settings_summary">Customize power menu</string>

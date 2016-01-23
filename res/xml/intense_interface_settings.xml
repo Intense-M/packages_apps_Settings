@@ -43,6 +43,12 @@
         android:fragment="com.android.settings.intense.Recents"
         android:title="@string/recents_category" />
 
+    <-- Power Menu -->
+    <PreferenceScreen
+        android:key="button_power_menu_settings"
+        android:fragment="com.android.settings.intense.PowerMenuSettings"
+        android:title="@string/button_power_menu_settings_title" />
+
     <!-- Weather -->
     <Preference
         android:key="weather"
