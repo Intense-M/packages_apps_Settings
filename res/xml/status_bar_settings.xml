@@ -50,6 +50,11 @@
 
     </PreferenceCategory>
 
+         <Preference
+            android:key="statusbar_notifications"
+            android:fragment="com.android.settings.intense.StatusbarNotifications"
+            android:title="@string/statusbar_notifications_category" />
+
          <com.android.settings.intense.SystemSettingSwitchPreference
             android:key="double_tap_sleep_gesture"
             android:title="@string/double_tap_to_sleep_title"
@@ -74,15 +79,5 @@
             android:key="toast_icon"
             android:title="@string/toast_icon_title"
             android:defaultValue="true" />
-
-         <Preference
-            android:key="weather"
-            android:fragment="com.android.settings.intense.Weather"
-            android:title="@string/weather_category" />
-
-         <Preference
-            android:key="statusbar_notifications"
-            android:fragment="com.android.settings.intense.StatusbarNotifications"
-            android:title="@string/statusbar_notifications_category" />
 
 </PreferenceScreen>
