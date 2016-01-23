@@ -505,9 +505,6 @@
     <string name="listview_anticipate_overshoot_interpolator">Anticipate and overshoot</string>
     <string name="listview_bounce_interpolator">Bounce</string>
 
-    <!-- Seconds clock -->
-    <string name="status_bar_show_clock_second_title">Clock seconds</string>
-
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Edit light settings</string>
     <string name="pulse_speed_title">Pulse length and speed</string>
