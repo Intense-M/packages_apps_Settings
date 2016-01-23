@@ -435,4 +435,8 @@
     <string name="voicemail_breath_title">Breathing Voicemail</string>
     <string name="voicemail_breath_summary">Will give your voicemail notifications a breathing effect in the statusbar</string>
 
+    <!-- Quick Unlock (PIN) -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock the lockscreen automatically when the correct PIN/password is entered</string>
+
 </resources>
