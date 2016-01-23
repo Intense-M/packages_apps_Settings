@@ -39,7 +39,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.MetricsLogger;
 import com.android.settings.Utils;
-import com.dirtyunicorns.dutweaks.fragments.AnimBarPreference;
+import com.android.settings.intense.AnimBarPreference;
 import com.android.internal.util.du.AwesomeAnimationHelper;
 
 import java.util.Arrays;
@@ -197,7 +197,7 @@ public class Animations extends SettingsPreferenceFragment implements OnPreferen
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsLogger.TESLACOIL;
+        return MetricsLogger.INTENSEM;
     }
 
     @Override
