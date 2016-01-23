@@ -4,6 +4,12 @@
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
         android:title="@string/intense_settings_title" >
 
+    <!--  AOKP custom system animations -->
+    <Preference
+        android:key="animations"
+        android:fragment="com.android.settings.intense.Animations"
+        android:title="@string/animations_category" />
+
     <!-- Allow Disabling Force Close Notifications -->
     <com.android.settings.intense.SystemSettingSwitchPreference
         android:key="disable_fc_notifications"
