@@ -37,10 +37,16 @@
         android:fragment="com.android.settings.slim.BatteryBar"
         android:title="@string/battery_bar" />
 
-   <!-- Recent Tweaks -->
-   <Preference
+    <!-- Recent Tweaks -->
+    <Preference
         android:key="recents"
         android:fragment="com.android.settings.intense.Recents"
         android:title="@string/recents_category" />
+
+    <!-- Weather -->
+    <Preference
+        android:key="weather"
+        android:fragment="com.android.settings.intense.Weather"
+        android:title="@string/weather_category" />
 
 </PreferenceScreen>
