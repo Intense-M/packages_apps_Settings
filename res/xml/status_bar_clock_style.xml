@@ -20,11 +20,6 @@
             android:title="@string/status_bar_show_clock_title"
             android:defaultValue="true" />
 
-        <com.android.settings.intense.SystemSettingSwitchPreference
-            android:key="clock_use_second"
-            android:title="@string/status_bar_show_clock_second_title"
-            android:defaultValue="false" />
-
         <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="clock_color"
             android:title="@string/clock_color_title"
