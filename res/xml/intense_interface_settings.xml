@@ -46,7 +46,7 @@
     <!-- Power Menu -->
     <PreferenceScreen
         android:key="button_power_menu_settings"
-        android:fragment="com.android.settings.intense.PowerMenuSettings"
+        android:fragment="com.android.settings.intense.PowerMenuActions"
         android:title="@string/button_power_menu_settings_title" />
 
     <!-- Weather -->
