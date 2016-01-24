@@ -103,9 +103,9 @@
         <!-- Interface Settings -->
         <dashboard-tile
                 android:id="@+id/interface_settings"
-                android:icon="@drawable/ic_settings_interface"
-                android:fragment="com.android.settings.intense.InterfaceSettings"
                 android:title="@string/interface_settings_title"
+                android:fragment="com.android.settings.intense.InterfaceSettings"
+                android:icon="@drawable/ic_interface"
                 />
 
         <!-- BitSyko Layers App -->
