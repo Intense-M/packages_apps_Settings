@@ -19,13 +19,6 @@
         android:title="@string/power_usage_summary_title"
         settings:keywords="@string/keywords_battery">
 
-        <!-- Bars color -->
-        <com.android.settings.intense.SystemSettingSwitchPreference
-            android:key="battery_save_mode_color"
-            android:title="@string/battery_saver_color_title"
-            android:summary="@string/battery_saver_color_summary"
-            android:defaultValue="true" />
- 
         <com.android.settings.fuelgauge.BatteryHistoryPreference
             android:key="battery_history" />
 
