@@ -634,9 +634,6 @@
     <string name="reset_lockscreen_weather">OK</string>
     <string name="reset_values_message">Reset values?</string>
 
-    <!-- Navigation bar button color -->
-    <string name="navbar_button_tint_title">Navigation button tint</string>
-
     <!-- Gesture Settings -->
     <!-- Settings main menu entry -->
     <string name="gesture_settings_title">Gestures</string>

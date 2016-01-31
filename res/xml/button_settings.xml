@@ -17,11 +17,6 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <net.margaritov.preference.colorpicker.ColorPickerPreference
-        android:key="navigation_bar_tint"
-        android:title="@string/navbar_button_tint_title"
-        android:defaultValue="#ffffff" />
-
     <!-- Device Specific Bluetooth Input settings -->
     <Preference
         android:key="bluetooth_input_settings">
