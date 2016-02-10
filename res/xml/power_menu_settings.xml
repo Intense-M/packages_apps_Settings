@@ -30,6 +30,11 @@ limitations under the License.
         android:defaultValue="true" />
 
     <SwitchPreference
+        android:key="powermenu_screenrecord"
+        android:title="@string/powermenu_screenrecord"
+        android:defaultValue="false" />
+
+    <SwitchPreference
         android:key="screenshot"
         android:title="@string/power_menu_screenshot_title"
         android:defaultValue="false" />

@@ -17,6 +17,15 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <!-- Device Specific Bluetooth Input settings -->
+    <Preference
+        android:key="bluetooth_input_settings">
+        <intent
+            android:action="com.cyanogenmod.action.LAUNCH_BLUETOOTH_INPUT_SETTINGS"
+            android:targetPackage="com.cyanogenmod.settings.device"
+            android:targetClass="com.cyanogenmod.settings.device.BluetoothInputSettings" />
+    </Preference>
+
  <PreferenceCategory
         android:key="home_key"
         android:title="@string/hardware_keys_home_key_title" >

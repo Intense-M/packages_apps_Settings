@@ -22,9 +22,9 @@
     <string name="bitsyko_layers">Layers</string>
 
     <!-- About phone screen, Intense-M version -->
-    <string name="intense_version_title">Intense Version</string>
+    <string name="intense_version_title translatable="false"">Intense Version</string>
     <string name="intense_version_default">Unknown</string>
-    <string name="build_date">Build date</string>
+    <string name="build_date translatable="false"">Build date</string>
     <string name="build_date_default">Unknown</string>
 
     <!-- Changelog -->
@@ -80,8 +80,8 @@
     <string name="inches">Inches</string>
 
     <!-- Intense-M Tweaks -->
-    <string name="intense_settings_title">Intense Tweaks</string>
-    <string name="header_category_intense">Customizations</string>
+    <string name="intense_settings_title translatable="false"">Intense Tweaks</string>
+    <string name="header_category_intense translatable="false"">Customizations</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -128,7 +128,7 @@
     <string name="display_rotation_270_title">270 degrees</string>
 
     <!-- Interface Settings -->
-    <string name="interface_settings_title">Interface</string>
+    <string name="interface_settings_title translatable="false"">Interface</string>
     <string name="reset">Reset</string>
     <string name="default_string">Default</string>
 
@@ -573,7 +573,7 @@
     <string name="hardware_keys_action_launch_camera">Launch camera</string>
     <string name="hardware_keys_action_sleep">Turn screen off</string>
 
-    <!-- powermenu fragment -->
+    <!-- Powermenu fragment -->
     <string name="power_menu_title">Power menu</string>
     <string name="power_menu_power_title">Power off</string>
     <string name="power_menu_reboot_title">Reboot menu</string>
@@ -587,10 +587,75 @@
     <string name="power_menu_bug_report_title">Bug report</string>
     <string name="power_menu_sound_title">Sound panel</string>
     <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
+    <string name="powermenu_screenrecord">Screen Record</string>
 
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Reset stats</string>
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
     <string name="ok_string">Ok</string>
+
+    <!-- Bluetooth settings. A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
+    <string name="bluetooth_accept_all_files">Accept all file types</string>
+
+    <!-- Keyboard and Input methods -->
+    <string name="title_keyboard_input">Advanced options</string>
+    <string name="disable_fullscreen_keyboard_title">Disable fullscreen keyboard</string>
+    <string name="disable_fullscreen_keyboard_summary">Landscape keyboard will never take up entire screen</string>
+    <string name="volume_key_cursor_control_title">Volume key cursor control</string>
+    <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
+    <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+    <string name="keyboard_rotation_toggle_title">Auto keyboard rotation</string>
+    <string name="keyboard_rotation_toggle_summary">Force auto-rotate when keyboard is shown</string>
+    <string name="keyboard_rotation_timeout_title">Auto-rotate timeout</string>
+    <string name="keyboard_rotation_timeout_summary">Disables auto-rotate sensor <xliff:g id="rotate_timeout">%1$s</xliff:g> seconds after keyboard is hidden</string>
+    <string name="keyboard_rotation_dialog">This feature forces auto-rotate to turn on temporarily while the keyboard is shown. It has no effect when auto-rotate is already enabled.</string>
+    <string name="show_enter_key_title">Show enter key</string>
+    <string name="show_enter_key_summary">Force keyboard to show enter instead of emoticon key</string>
+    <string name="ime_switcher_notify">Selector notification</string>
+    <string name="ime_switcher_notify_summary">Display input method selector notification</string>
+    <string name="attention">Attention</string>
+
+    <!-- Lockscreen Weather settings -->
+    <string name="weather_show_weather_title">Show weather options</string>
+    <string name="weather_show_weather_summary">Enable to show weather options that go along with LockClock</string>
+    <string name="status_bar_show_weather_title">Extended statusbar weather</string>
+    <string name="status_bar_show_weather_summary">Show basic weather in the extended statusbar area</string>
+    <string name="weather_show_location_title">Show location</string>
+    <string name="weather_show_location_summary">Enable to show the location</string>
+    <string name="weather_show_timestamp_title">Show timestamp</string>
+    <string name="weather_show_timestamp_summary">Enable to show the timestamp</string>
+    <string name="weather_condition_icon_title">Condition icon</string>
+    <string name="weather_condition_icon_dlg_title">Pick an icon for displaying the weather condition</string>
+    <string name="weather_condition_icon_monochrome_title">Monochrome</string>
+    <string name="weather_condition_icon_colored_title">Colored</string>
+    <string name="weather_condition_icon_vclouds_title">VClouds</string>
+    <string name="weather_colorize_all_icons_title">Colorize all icons</string>
+    <string name="weather_colorize_all_icons_summary">Enable to colorize all icons, disable to colorize only the monochrome icons</string>
+    <string name="colors_title">Colors</string>
+    <string name="icons_title">Icons</string>
+    <string name="text_title">Text</string>
+    <string name="reset_lockscreen_weather">OK</string>
+    <string name="reset_values_message">Reset values?</string>
+
+    <!-- Gesture Settings -->
+    <!-- Settings main menu entry -->
+    <string name="gesture_settings_title">Gestures</string>
+
+    <!-- MediaScanner behavior on boot -->
+    <string name="options_settings_title">Options</string>
+    <string name="media_scanner_on_boot_title">MediaScanner behavior on boot</string>
+    <string name="media_scanner_on_boot_enabled">Scan media</string>
+    <string name="media_scanner_on_boot_ask">Ask to scan (notification)</string>
+    <string name="media_scanner_on_boot_disabled">Do not scan media</string>
+
+    <!-- UBER GCC version info -->
+    <string name="uber_android">GCC Android</string>
+    <string name="uber_android_default">Unknown</string>
+    <string name="uber_kernel">GCC Kernel</string>
+    <string name="uber_kernel_default">Unknown</string>
+
+    <!-- UBER GCC build flags info -->
+    <string name="uber_flags">Optimizations</string>
+    <string name="uber_flags_default">None</string>
 
 </resources>
