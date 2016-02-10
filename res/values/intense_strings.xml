@@ -22,9 +22,9 @@
     <string name="bitsyko_layers">Layers</string>
 
     <!-- About phone screen, Intense-M version -->
-    <string name="intense_version_title translatable="false"">Intense Version</string>
+    <string name="intense_version_title">Intense Version</string>
     <string name="intense_version_default">Unknown</string>
-    <string name="build_date translatable="false"">Build date</string>
+    <string name="build_date">Build date</string>
     <string name="build_date_default">Unknown</string>
 
     <!-- Changelog -->
@@ -80,8 +80,8 @@
     <string name="inches">Inches</string>
 
     <!-- Intense-M Tweaks -->
-    <string name="intense_settings_title translatable="false"">Intense Tweaks</string>
-    <string name="header_category_intense translatable="false"">Customizations</string>
+    <string name="intense_settings_title">Intense Tweaks</string>
+    <string name="header_category_intense">Customizations</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -128,7 +128,7 @@
     <string name="display_rotation_270_title">270 degrees</string>
 
     <!-- Interface Settings -->
-    <string name="interface_settings_title translatable="false"">Interface</string>
+    <string name="interface_settings_title">Interface</string>
     <string name="reset">Reset</string>
     <string name="default_string">Default</string>
 
