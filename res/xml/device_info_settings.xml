@@ -73,6 +73,12 @@
                 android:title="@string/firmware_version"
                 android:summary="@string/device_info_default"/>
 
+        <!-- Android version -->
+        <Preference android:key="android_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/android_version_title"
+                android:summary="@string/android_version_default"/>
+
         <!-- Intense-M firmware version -->
         <Preference android:key="intense_version"
                 style="?android:preferenceInformationStyle"

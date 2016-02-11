@@ -657,4 +657,8 @@
     <string name="uber_flags">Optimizations</string>
     <string name="uber_flags_default">None</string>
 
+    <!-- Android Version -->
+    <string name="android_version_title">Marshmallow</string>
+    <string name="android_version_default">Release 13</string>
+
 </resources>
