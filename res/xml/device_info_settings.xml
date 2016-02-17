@@ -20,6 +20,13 @@
                           android:enabled="false"
                           android:layout="@layout/intense_logo_row" />
 
+        <!-- About Developer -->
+        <PreferenceScreen
+                android:key="about_dev"
+                android:fragment="com.android.settings.vibhu0009.About"
+                android:title="@string/about_dev_settings_title"
+                android:summary="@string/about_dev_summary" />
+
         <!-- Changelog -->
         <PreferenceScreen 
          	android:key="translator"

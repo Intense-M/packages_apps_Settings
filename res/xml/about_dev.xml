@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/about_dev_settings_title"
+	xmlns:me="http://schemas.android.com/apk/res/com.android.settings">
+                
+ 	<PreferenceCategory
+		android:key="links"
+		android:title="@string/link"> 
+
+		<Preference
+			android:key="dev_donate"
+			android:title="@string/dev_donate_title"
+			android:summary="@string/dev_donate_summary" />
+
+		<Preference
+			android:key="dev_facebook"
+			android:title="@string/dev_facebook_title"
+			android:summary="@string/dev_facebook_summary" />
+			
+		<Preference
+			android:key="dev_google_plus"
+			android:title="@string/dev_google_plus_title"
+			android:summary="@string/dev_google_plus_summary" />
+
+                <Preference
+                        android:key="dev_github"
+                        android:title="@string/dev_github_title"
+                        android:summary="@string/dev_github_summary" />
+
+</PreferenceCategory>
+
+</PreferenceScreen>

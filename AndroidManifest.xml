@@ -6,6 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="21" />
+        <uses-library android:name="org.apache.http.legacy" android:required="false" />
 
     <original-package android:name="com.android.settings" />
 
@@ -2505,6 +2506,7 @@
         <!-- Intense-M activities Start -->
         <activity android:name=".intense.Settings" />
         <activity android:name="com.android.settings.intense.Traffic" />
+        <activity android:name=".dev.About" />
 
         <!-- Intense-M Activities End -->
 

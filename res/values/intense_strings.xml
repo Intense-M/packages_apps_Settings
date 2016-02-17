@@ -667,4 +667,17 @@
     <!-- Viper4android -->
     <string name="equalizer_settings_title">Equalizer</string>
 
+    <!-- About Developer -->
+    <string name="about_dev_settings_title">About Developer</string>
+    <string name="about_dev_summary">Intract with Developer</string>
+    <string name="link">Links</string>
+    <string name="dev_facebook_title">Facebook</string>
+    <string name="dev_facebook_summary">Ping me</string>
+    <string name="dev_google_plus_title">Google+</string>
+    <string name="dev_google_plus_summary">Hangout with me</string>
+    <string name="dev_github_title">Github</string>
+    <string name="dev_github_summary">My Github profile</string>
+    <string name="dev_donate_title">Donate</string>
+    <string name="dev_donate_summary">Donate to Development</string>
+
 </resources>
