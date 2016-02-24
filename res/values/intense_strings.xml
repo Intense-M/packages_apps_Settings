@@ -679,5 +679,7 @@
     <string name="dev_github_summary">My Github profile</string>
     <string name="dev_donate_title">Donate</string>
     <string name="dev_donate_summary">Donate to Development</string>
+    <string name="dev_twitter_title">Twitter</string>
+    <string name="dev_twitter_summary">Follow me</string>
 
 </resources>
