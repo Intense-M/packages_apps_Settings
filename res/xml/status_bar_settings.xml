@@ -23,26 +23,49 @@
     <PreferenceCategory
         android:title="@string/status_bar_style_title">
 
+    <PreferenceCategory
+        android:title="@string/status_bar_clock">
+
         <PreferenceScreen
             android:fragment="com.android.settings.intense.StatusBarClockStyle"
             android:key="clock_style_pref"
             android:title="@string/status_bar_clock" />
-            
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/battery_category">
+
          <Preference
             android:key="battery"
             android:fragment="com.android.settings.intense.Battery"
             android:title="@string/battery_category" />            
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/carrier_options">
 
          <PreferenceScreen
             android:key="carrierlabel"
             android:fragment="com.android.settings.intense.CarrierLabel"
             android:title="@string/carrier_options" />
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/status_bar_intense_logo_title">
+
          <Preference
             android:key="intense_logo"
             android:fragment="com.android.settings.intense.IntenseLogo"
             android:title="@string/status_bar_intense_logo_title" />
- 
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/traffic_category">
+
 	 <Preference
             android:key="traffic"
             android:fragment="com.android.settings.intense.Traffic"
@@ -50,10 +73,20 @@
 
     </PreferenceCategory>
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/statusbar_notifications_category">
+
          <Preference
             android:key="statusbar_notifications"
             android:fragment="com.android.settings.intense.StatusbarNotifications"
             android:title="@string/statusbar_notifications_category" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/status_bar_custom_header_title">
 
          <com.android.settings.intense.SystemSettingSwitchPreference
             android:key="double_tap_sleep_gesture"
@@ -74,10 +107,17 @@
             android:dependency="status_bar_custom_header"
             android:defaultValue="false"/>
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/toast_icon_title">
+
          <!-- Toast Icons -->
          <com.android.settings.intense.SystemSettingSwitchPreference
             android:key="toast_icon"
             android:title="@string/toast_icon_title"
             android:defaultValue="true" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>

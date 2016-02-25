@@ -19,11 +19,19 @@
     android:title="@string/interface_settings_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:title="@string/status_bar_title">
+
     <!-- Status Bar -->
     <PreferenceScreen
         android:key="status_bar"
         android:fragment="com.android.settings.intense.StatusBar"
         android:title="@string/status_bar_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/volume_steps_title">
 
     <!-- Volume Steps -->
     <PreferenceScreen
@@ -31,11 +39,21 @@
         android:title="@string/volume_steps_title"
         android:fragment="com.android.settings.du.VolumeSteps" />
 
+    </PreferenceCategory>
+
+    </PreferenceCategory
+        android:title="@string/battery_bar">
+
     <!-- Battery Bar -->
     <PreferenceScreen
         android:key="battery_bar"
         android:fragment="com.android.settings.slim.BatteryBar"
         android:title="@string/battery_bar" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/recents_category">
 
     <!-- Recent Tweaks -->
     <Preference
@@ -43,16 +61,28 @@
         android:fragment="com.android.settings.intense.Recents"
         android:title="@string/recents_category" />
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/button_power_menu_settings_title">
+
     <!-- Power Menu -->
     <PreferenceScreen
         android:key="button_power_menu_settings"
         android:fragment="com.android.settings.intense.PowerMenuActions"
         android:title="@string/button_power_menu_settings_title" />
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/weather_category">
+
     <!-- Weather -->
     <Preference
         android:key="weather"
         android:fragment="com.android.settings.intense.Weather"
         android:title="@string/weather_category" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
