@@ -41,8 +41,8 @@
 
     </PreferenceCategory>
 
-    </PreferenceCategory
-        android:title="@string/battery_bar">
+    <PreferenceCategory
+        android:title="@string/battery_bar_title">
 
     <!-- Battery Bar -->
     <PreferenceScreen
@@ -53,7 +53,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="@string/recents_category">
+        android:title="@string/recents_category_title">
 
     <!-- Recent Tweaks -->
     <Preference
@@ -64,7 +64,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="@string/button_power_menu_settings_title">
+        android:title="@string/power_menu_title">
 
     <!-- Power Menu -->
     <PreferenceScreen
@@ -75,7 +75,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="@string/weather_category">
+        android:title="@string/weather_category_title">
 
     <!-- Weather -->
     <Preference

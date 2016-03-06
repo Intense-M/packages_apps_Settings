@@ -688,4 +688,10 @@
     <string name="share_message">Check out what #Intense-M is all about</string>
     <string name="share_chooser_title">Share Intense-M</string>
 
+    <!-- Categories Titile -->
+    <string name="battery_bar_title">Battery Bar</string>
+    <string name="recents_category_title">Recents</string>
+    <string name="power_menu_title">Power menu</string>
+    <string name="weather_category_title">Weather</string>
+
 </resources>

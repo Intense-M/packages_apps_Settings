@@ -64,7 +64,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="@string/traffic_category">
+        android:title="@string/network_traffic_title">
 
 	 <Preference
             android:key="traffic"
