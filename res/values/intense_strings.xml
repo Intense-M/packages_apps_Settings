@@ -688,4 +688,8 @@
     <string name="share_message">Check out what #Intense-M is all about at https://github.com/Intense-M by @vibhu0009</string>
     <string name="share_chooser_title">Share Intense-M</string>
 
+    <!-- ADB debugging notifications -->
+    <string name="adb_notify">Android debugging notification</string>
+    <string name="adb_notify_summary">Display a notification when android debugging is enabled</string>
+
 </resources>
