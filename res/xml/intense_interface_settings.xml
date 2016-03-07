@@ -23,7 +23,8 @@
     <PreferenceScreen
         android:key="status_bar"
         android:fragment="com.android.settings.intense.StatusBar"
-        android:title="@string/status_bar_title" />
+        android:title="@string/status_bar_title"
+        android:icon="@drawable/intense_statusbar_icon" />
 
     <!-- Volume Steps -->
     <PreferenceScreen
@@ -41,7 +42,8 @@
     <Preference
         android:key="recents"
         android:fragment="com.android.settings.intense.Recents"
-        android:title="@string/recents_category" />
+        android:title="@string/recents_category"
+        android:icon="@drawable/intense_recents_icon" />
 
     <!-- Power Menu -->
     <PreferenceScreen
