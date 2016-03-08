@@ -29,6 +29,11 @@
                         android:title="@string/dev_github_title"
                         android:summary="@string/dev_github_summary" />
 
+                <Preference
+                        android:key="dev_twitter"
+                        android:title="@string/dev_twitter_title"
+                        android:summary="@string/dev_twitter_summary" />
+
 </PreferenceCategory>
 
 </PreferenceScreen>

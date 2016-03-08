@@ -41,6 +41,12 @@
                         android:targetPackage="com.android.settings" android:targetClass="com.android.settings.intense.extrainfo.MainActivity" />
         </PreferenceScreen>
 
+        <!-- Intense-M Share -->
+        <Preference
+            android:key="share"
+            android:title="@string/share_intense_title"
+            android:summary="@string/share_intense_summary" />
+
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
                 android:title="@string/device_status"

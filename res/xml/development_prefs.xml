@@ -17,6 +17,16 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/development_settings_title">
 
+    <PreferenceScreen android:key="developer_tools"
+            android:title="@string/developer_tools_title"
+            android:summary="@string/developer_tools_summary"
+            android:persistent="false" >
+        <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.development"
+                android:targetClass="com.android.development.Development" />
+    </PreferenceScreen>
+
     <ListPreference
             android:key="media_scanner_on_boot"
             android:title="@string/media_scanner_on_boot_title"
@@ -83,6 +93,12 @@
             android:key="enable_adb"
             android:title="@string/enable_adb"
             android:summary="@string/enable_adb_summary"/>
+
+        <SwitchPreference
+            android:key="adb_notify"
+            android:title="@string/adb_notify"
+            android:summary="@string/adb_notify_summary"
+            android:dependency="enable_adb"/>
 
         <Preference android:key="clear_adb_keys"
                 android:title="@string/clear_adb_keys" />
@@ -358,15 +374,5 @@
                 android:title="@string/inactive_apps_title" />
 
      </PreferenceCategory>
-
-    <PreferenceScreen android:key="developer_tools"
-            android:title="@string/developer_tools_title"
-            android:summary="@string/developer_tools_summary"
-            android:persistent="false" >
-        <intent
-                android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.development"
-                android:targetClass="com.android.development.Development" />
-    </PreferenceScreen>
 
 </PreferenceScreen>

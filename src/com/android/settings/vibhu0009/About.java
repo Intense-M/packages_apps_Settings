@@ -80,6 +80,7 @@ public static final String TAG = "About";
     Preference mFacebookUrl;
     Preference mGoogleUrl;
     Preference mGithubUrl;
+    Preference mTwitterUrl;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -91,6 +92,7 @@ public static final String TAG = "About";
         mFacebookUrl = findPreference("dev_facebook");
         mGoogleUrl = findPreference("dev_google_plus");
         mGithubUrl = findPreference("dev_github");
+        mTwitterUrl = findPreference("dev_twitter");
     }
 
     @Override
@@ -108,6 +110,8 @@ public static final String TAG = "About";
             launchUrl("https://plus.google.com/u/0/111514531794740016669");
         } else if (preference == mGithubUrl) {
             launchUrl("https://github.com/vibhu0009");
+        } else if (preference == mTwitterUrl) {
+            launchUrl("https://twitter.com/cvibhu0009");
         } else {
                 // If not handled, let preferences handle it.
                 return super.onPreferenceTreeClick(preferenceScreen, preference);
