@@ -218,12 +218,7 @@ public final class BluetoothPairingDialog extends AlertActivity implements
                 }
             }
         });
-        if ((mDevice.getBluetoothClass() != null) && (mDevice.getBluetoothClass().getDeviceClass()
-                    == BluetoothClass.Device.AUDIO_VIDEO_HANDSFREE)) {
-            contactSharing.setVisibility(View.VISIBLE);
-        } else {
-            contactSharing.setVisibility(View.GONE);
-        }
+
         mPairingView = (EditText) view.findViewById(R.id.text);
         mPairingView.addTextChangedListener(this);
         alphanumericPin.setOnCheckedChangeListener(this);
@@ -296,12 +291,7 @@ public final class BluetoothPairingDialog extends AlertActivity implements
                 }
             }
         });
-        if ((mDevice.getBluetoothClass() != null) && (mDevice.getBluetoothClass().getDeviceClass()
-                    == BluetoothClass.Device.AUDIO_VIDEO_HANDSFREE)) {
-            contactSharing.setVisibility(View.VISIBLE);
-        } else {
-            contactSharing.setVisibility(View.GONE);
-        }
+
         String messageCaption = null;
         String pairingContent = null;
         switch (mType) {
